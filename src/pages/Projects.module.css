@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.coluna{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.projeto{
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin: 5em 5em;
+}
+.projeto a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: black;
+}
+.projeto a:hover{
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+.projeto img{
+    height: 250px;
+    width: 500px;
+    border: 1px solid black;
+}

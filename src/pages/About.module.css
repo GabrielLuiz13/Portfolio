@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.coluna{
+    margin-top: 2em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}
+
+.title{
+    width: 100%;
+}
+
+.coluna img{
+    height: 175px;
+    margin-top: 2em;
+}
+
+.title p{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.sub{
+    color: black;
+    display: inline-block;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}

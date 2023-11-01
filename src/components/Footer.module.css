@@ -1,0 +1,21 @@
+.footer {
+    height: 150px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    bottom: auto;
+    width: 100%;
+}
+
+.footer h2 {
+    padding-left: 5em;
+}
+
+.footer p {
+    padding-right: 6em;
+}
+
+

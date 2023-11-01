@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.coluna{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.coluna h2 {
+    font-size: 2em;
+    margin-bottom: 50px;
+    margin-top: 5em;
+
+}
+
+.coluna p {
+    width: 500px;
+    font-size: 1.2em;
+    margin-left: 6em;
+
+}
+
+.coluna img{
+    height: 550px;
+}
+
+.redes ul {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 280px;
+    display: flex; 
+    align-items: center; 
+}
+
+.redes ul li {
+    margin-right: 5px; 
+}
+
+.redes ul li a {
+    display: inline;
+    color: black;
+    font-size: 1.4em;
+}
